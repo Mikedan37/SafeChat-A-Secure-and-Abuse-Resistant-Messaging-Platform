@@ -101,4 +101,4 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 ## Contact
 For questions or feedback, please contact the project maintainer:
 - Name: Michael Danylchuk
-- Email: m_danylchuk@apple.com
+- Email: mn_danylchuk@me.com

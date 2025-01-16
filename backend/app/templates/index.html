@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeChat - Secure Messaging</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+        .button {
+            padding: 1rem 2rem;
+            margin: 1rem;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to SafeChat</h1>
+    </header>
+    <main>
+        <p>Secure and abuse-resistant messaging for everyone.</p>
+        <a href="/register"><button class="button">Register</button></a>
+        <a href="/login"><button class="button">Login</button></a>
+        <a href="/profile"><button class="button">Profile</button></a>
+    </main>
+<form action="/search" method="GET">
+    <input type="text" name="q" placeholder="Search users" required>
+    <button type="submit">Search</button>
+</form>
+</body>
+</html>
